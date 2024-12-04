@@ -1,0 +1,41 @@
+{
+  "folders": {
+    "items": {
+      "src": {}
+    }
+  },
+  "packages": {
+    "Kiwi.Core.Domain": {
+      "path": "src/Kiwi.Core.Domain/Kiwi.Core.Domain.abppkg",
+      "folder": "src"
+    },
+    "Kiwi.Core.Application.Contracts": {
+      "path": "src/Kiwi.Core.Application.Contracts/Kiwi.Core.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Kiwi.Core.Application": {
+      "path": "src/Kiwi.Core.Application/Kiwi.Core.Application.abppkg",
+      "folder": "src"
+    },
+    "Kiwi.Core.EntityFrameworkCore": {
+      "path": "src/Kiwi.Core.EntityFrameworkCore/Kiwi.Core.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Kiwi.Core.HttpApi": {
+      "path": "src/Kiwi.Core.HttpApi/Kiwi.Core.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Kiwi.Core.HttpApi.Client": {
+      "path": "src/Kiwi.Core.HttpApi.Client/Kiwi.Core.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Kiwi.Core.Web": {
+      "path": "src/Kiwi.Core.Web/Kiwi.Core.Web.abppkg",
+      "folder": "src"
+    },
+    "Kiwi.Core.Domain.Shared": {
+      "path": "src/Kiwi.Core.Domain.Shared/Kiwi.Core.Domain.Shared.abppkg",
+      "folder": "src"
+    }
+  }
+}

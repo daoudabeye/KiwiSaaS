@@ -1,0 +1,13 @@
+﻿{
+  "applications": {
+    "KiwiSaaS.Web": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44302",
+      "path": "../../../src/KiwiSaaS.Web/KiwiSaaS.Web.csproj",
+      "kubernetesService": ".*-web$",
+      "execution": {
+        "order": 2
+      }
+    }
+  }
+}

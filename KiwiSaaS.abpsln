@@ -1,0 +1,43 @@
+{
+  "id": "3d8707f8-59e1-4479-93ff-edaff6cf3b49",
+  "template": "app",
+  "versions": {
+    "AbpFramework": "9.0.0",
+    "AbpStudio": "0.9.11",
+    "TargetDotnetFramework": "net9.0"
+  },
+  "modules": {
+    "KiwiSaaS": {
+      "path": "KiwiSaaS.abpmdl"
+    },
+    "Kiwi.Core": {
+      "path": "modules/kiwi.core/Kiwi.Core.abpmdl"
+    }
+  },
+  "runProfiles": {
+    "Default": {
+      "path": "etc/abp-studio/run-profiles/Default.abprun.json"
+    }
+  },
+  "options": {
+    "httpRequests": {
+      "ignoredUrls": [
+        "^/metrics$"
+      ]
+    }
+  },
+  "creatingStudioConfiguration": {
+    "template": "app",
+    "createdAbpStudioVersion": "0.9.11",
+    "tiered": "false",
+    "uiFramework": "mvc",
+    "databaseProvider": "ef",
+    "databaseManagementSystem": "sqlite",
+    "separateTenantSchema": "false",
+    "theme": "basic",
+    "themeStyle": "",
+    "mobileFramework": "none",
+    "publicWebsite": "false",
+    "socialLogin": ""
+  }
+}

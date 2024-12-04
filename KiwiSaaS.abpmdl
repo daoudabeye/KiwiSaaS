@@ -1,0 +1,109 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.BasicTheme": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Kiwi.Core": {
+      "path": "modules/kiwi.core/Kiwi.Core.abpmdl",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "KiwiSaaS.Application": {
+      "path": "src/KiwiSaaS.Application/KiwiSaaS.Application.abppkg",
+      "folder": "src"
+    },
+    "KiwiSaaS.Application.Tests": {
+      "path": "test/KiwiSaaS.Application.Tests/KiwiSaaS.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "KiwiSaaS.Domain.Shared": {
+      "path": "src/KiwiSaaS.Domain.Shared/KiwiSaaS.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "KiwiSaaS.Application.Contracts": {
+      "path": "src/KiwiSaaS.Application.Contracts/KiwiSaaS.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "KiwiSaaS.HttpApi": {
+      "path": "src/KiwiSaaS.HttpApi/KiwiSaaS.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "KiwiSaaS.HttpApi.Client": {
+      "path": "src/KiwiSaaS.HttpApi.Client/KiwiSaaS.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "KiwiSaaS.Web": {
+      "path": "src/KiwiSaaS.Web/KiwiSaaS.Web.abppkg",
+      "folder": "src"
+    },
+    "KiwiSaaS.Web.Tests": {
+      "path": "test/KiwiSaaS.Web.Tests/KiwiSaaS.Web.Tests.abppkg",
+      "folder": "test"
+    },
+    "KiwiSaaS.EntityFrameworkCore.Tests": {
+      "path": "test/KiwiSaaS.EntityFrameworkCore.Tests/KiwiSaaS.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "KiwiSaaS.EntityFrameworkCore": {
+      "path": "src/KiwiSaaS.EntityFrameworkCore/KiwiSaaS.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "KiwiSaaS.TestBase": {
+      "path": "test/KiwiSaaS.TestBase/KiwiSaaS.TestBase.abppkg",
+      "folder": "test"
+    },
+    "KiwiSaaS.Domain.Tests": {
+      "path": "test/KiwiSaaS.Domain.Tests/KiwiSaaS.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "KiwiSaaS.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/KiwiSaaS.HttpApi.Client.ConsoleTestApp/KiwiSaaS.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "KiwiSaaS.DbMigrator": {
+      "path": "src/KiwiSaaS.DbMigrator/KiwiSaaS.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "KiwiSaaS.Domain": {
+      "path": "src/KiwiSaaS.Domain/KiwiSaaS.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
