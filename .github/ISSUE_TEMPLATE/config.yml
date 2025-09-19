@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Forum
+    url: https://community.kiwi-saas.io
+    about: Questions générales et échanges
+  - name: Slack
+    url: https://slack.kiwi-saas.io
+    about: Chat temps réel avec la communauté

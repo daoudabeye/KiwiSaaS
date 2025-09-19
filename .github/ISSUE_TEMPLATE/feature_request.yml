@@ -1,0 +1,37 @@
+name: Feature Request
+description: Proposer une fonctionnalité
+labels: [enhancement]
+assignees: []
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Résumé
+      placeholder: Exemple — Workflow d'approbation des devis
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problème
+      description: Quel problème cette fonctionnalité résout-elle ?
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposition
+      description: Décrivez la solution souhaitée
+      placeholder: En tant que..., je veux..., afin de...
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Portée
+      options:
+        - label: Impacts la base de données
+        - label: Breaking change potentielle
+        - label: Nécessite RFC

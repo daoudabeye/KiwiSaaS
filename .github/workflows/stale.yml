@@ -1,0 +1,21 @@
+name: Mark stale issues and pull requests
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v9
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          days-before-stale: 30
+          days-before-close: 7
+          stale-issue-message: 'Cette issue est marquée comme stale en raison de l\'inactivité.'
+          close-issue-message: 'Fermeture automatique de l\'issue pour inactivité. Vous pouvez la rouvrir si nécessaire.'
+          stale-pr-message: 'Cette PR est marquée comme stale en raison de l\'inactivité.'
+          close-pr-message: 'Fermeture automatique de la PR pour inactivité.'
+          stale-issue-label: 'stale'
+          stale-pr-label: 'stale'

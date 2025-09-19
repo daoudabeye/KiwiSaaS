@@ -8,6 +8,8 @@
   <ItemGroup>
     <ProjectReference Include="..\KiwiSaaS.Application.Contracts\KiwiSaaS.Application.Contracts.csproj" />
     <ProjectReference Include="../../modules/kiwi.core/src/Kiwi.Core.HttpApi/Kiwi.Core.HttpApi.csproj" />
+    <ProjectReference Include="..\..\modules\kiwi.meta.core\KiwiSaaS.Meta.Application\KiwiSaaS.Meta.Application.csproj" />
+    <ProjectReference Include="..\KiwiSaaS.Application\KiwiSaaS.Application.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Volo.Abp.PermissionManagement.HttpApi" Version="9.0.1" />

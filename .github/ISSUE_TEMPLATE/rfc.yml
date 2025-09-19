@@ -1,0 +1,42 @@
+name: RFC / Design Proposal
+description: Discuter un changement majeur (architecture, API, module)
+labels: [rfc, design]
+assignees: []
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Titre
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Résumé
+      description: Contexte, objectifs, non-objectifs
+    validations:
+      required: true
+  - type: textarea
+    id: design
+    attributes:
+      label: Design proposé
+      description: Architecture, schémas, API, migration
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Sécurité, performance, compatibilité, DX
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considérées
+  - type: textarea
+    id: rollout
+    attributes:
+      label: Plan de déploiement et migration
+  - type: textarea
+    id: open
+    attributes:
+      label: Questions ouvertes
