@@ -94,8 +94,24 @@ You can see the following resources to learn more about your solution and the AB
 * [Application Startup Template Structure](https://abp.io/docs/latest/solution-templates/layered-web-application)
 * [LeptonX Lite MVC UI](https://abp.io/docs/latest/ui-themes/lepton-x-lite/asp-net-core)
 
-### Démo en ligne
+## 📚 Ressources & Navigation rapide
+ 
+- Documentation produit: [docs/PRODUCT_SPEC.md](./docs/PRODUCT_SPEC.md)
+- Roadmap détaillée: [docs/ROADMAP.md](./docs/ROADMAP.md)
+- Guide de développement: [docs/DEVELOPMENT.md](./docs/DEVELOPMENT.md)
+- Architecture overview: [docs/architecture/overview.md](./docs/architecture/overview.md)
+- ADRs: [docs/architecture/adr/](./docs/architecture/adr/)
+- RFC template: [docs/RFCS/0000-template.md](./docs/RFCS/0000-template.md)
+- Modules ERP: [docs/modules/README.md](./docs/modules/README.md)
+- APIs: [docs/apis/README.md](./docs/apis/README.md)
+- Contribuer: [CONTRIBUTING.md](./CONTRIBUTING.md)
+- Code de conduite: [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
+- Sécurité: [SECURITY.md](./SECURITY.md)
+- Gouvernance: [GOVERNANCE.md](./GOVERNANCE.md)
+- Support: [SUPPORT.md](./SUPPORT.md)
 
+### Démo en ligne
+  
 Explorez une version démo en ligne : [Demo Kiwi SaaS](https://demo.kiwi-saas.io).
 
 ---

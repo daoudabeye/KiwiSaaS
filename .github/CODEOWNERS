@@ -1,0 +1,6 @@
+# Code owners
+# Format: https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+*       @daoudabeye
+src/    @daoudabeye
+modules/ @daoudabeye

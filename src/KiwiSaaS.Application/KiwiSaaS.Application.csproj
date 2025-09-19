@@ -9,6 +9,7 @@
     <ProjectReference Include="..\KiwiSaaS.Domain\KiwiSaaS.Domain.csproj" />
     <ProjectReference Include="..\KiwiSaaS.Application.Contracts\KiwiSaaS.Application.Contracts.csproj" />
     <ProjectReference Include="../../modules/kiwi.core/src/Kiwi.Core.Application/Kiwi.Core.Application.csproj" />
+    <ProjectReference Include="..\..\modules\kiwi.meta.core\KiwiSaaS.Meta.Application\KiwiSaaS.Meta.Application.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Volo.Abp.PermissionManagement.Application" Version="9.0.1" />

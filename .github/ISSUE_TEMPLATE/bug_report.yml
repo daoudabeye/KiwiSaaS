@@ -1,0 +1,59 @@
+name: Bug Report
+description: Signaler un bug
+labels: [bug]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: Merci de vérifier qu'une issue similaire n'existe pas déjà.
+  - type: input
+    id: summary
+    attributes:
+      label: Résumé
+      description: Décrivez brièvement le bug
+      placeholder: Exemple — Impossible de créer un devis
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Étapes de reproduction
+      description: Détaillez les étapes
+      placeholder: 1) ... 2) ... 3) ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportement attendu
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Comportement observé
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs/Stacktrace
+      render: shell
+  - type: input
+    id: version
+    attributes:
+      label: Version/Commit
+      placeholder: v0.1.0 / abcdef1
+  - type: dropdown
+    id: env
+    attributes:
+      label: Environnement
+      options:
+        - Dev
+        - Staging
+        - Prod
+  - type: input
+    id: os
+    attributes:
+      label: OS/Runtime
+      placeholder: Ubuntu 22.04 / Windows 11 / .NET 8
